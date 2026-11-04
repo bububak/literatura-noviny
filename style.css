@@ -74,6 +74,11 @@ nav menu li {
     width: 20%;
 }
 
+.datum {
+    font-style: italic;
+    font-size: 14px;
+}
+
 .footer-top menu li {
     text-decoration: underline;
     width: 15%;
