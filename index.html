@@ -2,20 +2,48 @@
 <html>
     <head>
         <title>nieSME - Sme Noviny</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <meta charset="utf-8">
     </head>
     <body>
-        <header> </header>
+        <header>
+            <div class="heading-centrer">
+                <div>
+                    <img src="images/terc.png" alt="logo" height="150px">
+                </div>
+                <div class="heading-text-right">
+                    <h1>nieSME</h1>
+                    <p>Sme tie najspoľahlivejšie Noviny</p>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <menu>
+                <li> <button onclick="window.location.href = 'http://localhost:8000/test.html'">Horúce Novinky</button></li>
+                <li> <button>Editorov Výber</button></li>
+                <li> <button>Domov</button></li>
+                <li> <button>Náhodný Článok</button></li>
+                <li> <button>O Nás</button></li>
+            </menu>
+        </nav>
         <main>
-            <article>
-                <h2>Prva Novinka</h2>
+            <article class="card">
+                <h2 class="test">Prva Novinka</h2>
+                <p>
+                    toto je proste text nech tot tu neni prazdne
+                </p>
             </article>
 
-            <article>
+            <article class="card">
                 <h2>Druha Novinka</h2>
             </article>
         </main>
         <footer>
-            <p> Some text</p>
+            <div class="footer-top">
+                <menu>
+                    <li> <button onclick="window.location.href = 'http://localhost:8000/under-construction.html'">Kontakt</button></li>
+                </menu>
+            </div>
         </footer>
     </body>
 </html>
