@@ -16,6 +16,11 @@ h3 {
     margin: 0;
 }
 
+.obrazok {
+    padding: 20px 20px;
+    width: 100%;
+}
+
 body {
     background-color: #f3f6f9;
     font-family: Arial, sans-serif;
