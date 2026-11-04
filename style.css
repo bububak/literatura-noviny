@@ -64,6 +64,11 @@ main {
     grid-template-columns: 30% 70%;
 }
 
+.no-grid main {
+    display: none;
+}
+
+
 nav {
     margin: 0;
     background: red;
