@@ -70,17 +70,15 @@ main {
     grid-template-columns: 30% 70%;
 }
 
-@media (max-width: 1100px) {
-    main {
-        grid-template-columns: 1fr;
-    }
-    .main-left {
-        order: 2;
-    }
-    .main-right {
-        order: 1;
-    }
+
+.construction-main {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 .no-grid main {
     display: none;
@@ -147,4 +145,19 @@ button {
 footer {
     background: lightgrey;
     color: gray;
+}
+
+@media (max-width: 1100px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+    .main-left {
+        order: 2;
+    }
+    .main-right {
+        order: 1;
+    }
+    .construction-main {
+        width: 80%;
+    }
 }
