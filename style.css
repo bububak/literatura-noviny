@@ -17,8 +17,17 @@ h3 {
 }
 
 .obrazok {
-    padding: 20px 20px;
+    /*padding: 20px 20px;*/
+    margin: 20px 0px;
     width: 100%;
+}
+
+.main-left {
+    padding: 0 20px;
+}
+
+.main-right {
+    padding: 0 20px;
 }
 
 body {
@@ -41,11 +50,8 @@ header {
 
 .card {
     background: white;
-    /*display: grid;*/
     padding: 20px;
-    width: 80%;
-    /*align-items: center;*/
-    margin: 20px auto;
+    margin: 20px 0;
 }
 
 .heading-centrer {
@@ -59,7 +65,7 @@ header {
 }
 
 main {
-    margin: 9;
+    margin: 0 50px;
     display: grid;
     grid-template-columns: 30% 70%;
 }
