@@ -74,6 +74,12 @@ main {
     main {
         grid-template-columns: 1fr;
     }
+    .main-left {
+        order: 2;
+    }
+    .main-right {
+        order: 1;
+    }
 }
 
 .no-grid main {
